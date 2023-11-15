@@ -34,11 +34,11 @@ i-slint-backend-android-activity = { version = "=1.3.0", features = ["native-act
 与使用任何应用程序一样android-activity，您需要将android_init函数实现为#[no_mangle]. 在其中创建一个 [ AndroidPlatform] 并将其传递给 [ slint::platform::set_platform][i_slint_core::platform::set_platform]。
 
 ## 构建和部署项目
-要构建和部署您的应用程序，我们建议使用Cargo-apk，这是一个Cargo子命令，可让您构建、签名和部署用Rust制作的Android APK。
+要构建和部署应用程序，我们建议使用Cargo-apk，这是一个Cargo子命令，可构建、签名和部署用Rust制作的Android APK。
 
 您可以通过以下命令安装并使用它：
 ```
 cargo install cargo-apk
 cargo apk run --target aarch64-linux-android --lib
 ```
-请确保您已在开发环境中安装并正确设置了 Android NDK 和 SDK，以便上述命令能够按预期工作。
+PS：请确保已在开发环境中安装并正确设置了 Android NDK 和 SDK，以便上述命令能够按预期工作。
