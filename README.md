@@ -1,4 +1,4 @@
-# Slint-AndroidCalcualator
+# Slint-AndroidCalculator
 
 
 Slint 1.3 增加了对 Android app 的支持，本篇文章将通过一个简单的案例 —— 计算器，来探讨下如果目前采用 Slint 编写 Android 是否可用于生产
