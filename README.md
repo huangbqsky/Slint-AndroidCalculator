@@ -42,3 +42,6 @@ cargo install cargo-apk
 cargo apk run --target aarch64-linux-android --lib
 ```
 PS：请确保已在开发环境中安装并正确设置了 Android NDK 和 SDK，以便上述命令能够按预期工作。
+
+## 参考文档
+Slint android-activity 文档：https://github.com/slint-ui/slint/tree/master/internal/backends/android-activity
